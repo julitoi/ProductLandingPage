@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+header {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #0F1F40;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+#header-imag {
+    max-width: 100px;
+    background-color: #fff;
+    padding: 0 7px;
+    border-radius: 20%;
+    border: 2px solid #6DCCF2;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#nav-bar {
+    max-width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    margin-right: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #6DCCF2;
+}
+
+h1 {
+    position: relative;
+    font-size: 350%;
+    font-family: 'Source Code Pro', monospace;
+    letter-spacing: 5px;
+    padding: 40px 0;
+    max-width: 300px;
+    margin: 170px auto 80px auto;
+    border-bottom: 5px solid #6DCCA2;
+}
+
+#section-features {
+    width: 60%;
+    margin: 0 auto 50px auto;
+    padding: 10px 0 50px 0;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+#section-video {
+    padding: 20px 0 70px 0;
+    background-color: #DBF2F4;
+}
+
+h2 {
+    margin: 40px 0;
+}
+
+#section-pricing {
+    padding: 20px 0 70px 0;
+}
+
+.tiles {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.tile {
+    width: 30%;
+    border: 2px solid #6DCCA2;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #C5CDC7;
+    padding: 20px 0 0 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+li {
+    margin-bottom: 15px;
+    font-size: 90%;
+}
+
+@media (max-width: 800px) {
+    .tiles {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .tile {
+        margin: 20px 10px;
+        padding: auto 500px;
+        align-self: center;
+        width: 100%;
+    }
+}
+
+#section-newsletter {
+    padding: 20px 0 70px 0;
+    background-color: #DBF2F4;
+}
+
+form {
+    display: block;
+    max-width: 900px;
+    text-align: center;
+    margin: auto;
+}
+
+input {
+    border: none;
+    margin: 20px auto;
+    padding: auto;
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 7px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.btn {
+    border: none;
+    height: 50px;
+    width: 120px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-image: linear-gradient(45deg, #020659, #3B9294);
+    border-radius: 7px;
+}
